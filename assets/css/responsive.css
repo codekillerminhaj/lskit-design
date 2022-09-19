@@ -1,0 +1,33 @@
+/*Solution Page Area Responsive Start*/
+
+/* Header Top Area Responsive Start */
+@media(max-width:937px){
+    .documentation_area .header_top .header_top_part1 ul li{
+        display: block;
+        margin-right: 0px;
+    }
+    .documentation_area .header_top .header_top_part1 ul li:first-child{
+        margin-bottom: 10px;
+        display: block;
+        margin-right: 0px;
+    }
+
+    .documentation_area .header_top .header_top_part1 ul li:nth-child(2){
+        margin-bottom: 10px;
+    }
+}
+
+
+@media(max-width: 815px){
+    .documentation_area .header_top .header_top_part2{
+        display: flex;
+        flex-flow: column;
+        margin-bottom: 10px;
+    }
+
+    .documentation_area .header_top .header_top_part2 .link{
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+}
+/* Header Top Area Responsive End */
