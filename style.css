@@ -263,7 +263,7 @@
 .card_box_area{
     width: 100%;
     height: auto;
-    background-color: #D0D0D0;
+    background-color: #FFFFFF;
 }
 
 .card_box_area .card_box_area_all{
@@ -282,7 +282,7 @@
     width: 32%;
     margin-right: 21px;
     margin-bottom: 21px;
-    padding: 25px 30px 45px 30px;
+    padding: 25px 30px 42px 30px;
     border-radius: 10px;
 }
 .card_box_area .card_box_area_all .card_box:nth-child(3){
@@ -295,7 +295,7 @@
     margin-right: 0px;
 }
 .card_box_area .card_box_area_all .card_box .box1{
-    width: 35%;
+    width: 25%;
     height: auto;
 }
 
@@ -305,7 +305,7 @@
     border-radius: 50%;
     background-color: #FDEDED;
     position: relative;
-    margin-bottom: 54%;
+    margin-bottom: 40px;
 }
 
 .card_box_area .card_box_area_all .card_box .box1 .icon_box img{
@@ -328,6 +328,7 @@
 
 .card_box_area .card_box_area_all .card_box .box2{
     margin: 0px;
+    width: 75%;
 }
 
 .card_box_area .card_box_area_all .card_box .box2 h2{
