@@ -30,6 +30,27 @@
         margin-bottom: 10px;
     }
 }
+
+
+@media(max-width: 550px){
+    .documentation_area .header_top .header_top_part1 ul li{
+        font-size: 10px;
+    }
+    .documentation_area .header_top .header_top_part1 ul li i{
+        font-size: 12px;
+    }
+
+    .documentation_area .header_top .header_top_part2 .link{
+        font-size: 10px;
+    }
+    .documentation_area .header_top .header_top_part2 ul li{
+        margin-right: 5px;
+    }
+    .documentation_area .header_top .header_top_part2 ul li a i{
+        font-size: 12px;
+    }
+}
+
 /* Header Top Area Responsive End */
 
 /* Header Content Area Responsive Start*/
