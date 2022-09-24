@@ -204,6 +204,7 @@
     transition: all .3s;
     top: 30px;
     display: none;
+    z-index: 1;
 }
 
 .documentation_area .header_content_box .menubar .menu_bar_row ul .for_hover_effect:hover .submenu_section{
@@ -410,7 +411,7 @@
 .card_box_area .card_box_area_all{
     display: flex;
     flex-wrap: wrap;
-    align-content: space-between;
+    justify-content: space-between;
     width: 80%;
     margin: auto;
     padding: 130px 0px;

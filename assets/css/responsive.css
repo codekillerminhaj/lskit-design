@@ -127,3 +127,100 @@
     }
 }
 /* Header Content Area Responsive End*/
+
+/* Documentation Content Area Responsive */
+@media(max-width: 848px){
+    .documentation_content_area .contents .search_box #search_icon{
+        left: 88%;
+    }
+}
+
+@media(max-width: 708px){
+    .documentation_content_area .contents .search_box #search_icon{
+        left: 86%;
+    }
+}
+
+@media(max-width: 608px){
+    .documentation_content_area .contents .search_box #search_icon{
+        left: 84%;
+    }
+
+    .documentation_content_area .contents h2{
+        font-size: 25px;
+    }
+    .documentation_content_area .contents p{
+        font-size: 15px;
+    }
+}
+
+
+@media(max-width: 524px){
+    .documentation_content_area .contents .search_box #search_icon{
+        left: 80%;
+    }
+    .documentation_content_area .contents .search_box .search{
+        padding-top: 11px;
+        padding-bottom: 11px;
+        padding-left: 11px;
+        padding-right: 38px;
+        font-size: 14px;
+    }
+    .documentation_content_area .contents .search_box #search_icon{
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 406px){
+    .documentation_content_area .contents .search_box .search{
+        font-size: 11px;
+        padding-right: 30px;
+    }
+    .documentation_content_area .contents .search_box #search_icon{
+        font-size: 14px;
+        left: 74%;
+    }
+    .documentation_content_area .contents h2{
+        font-size: 22px;
+    }
+    .documentation_content_area .contents p{
+        font-size: 12px;
+    }
+}
+/* Documentation Content Area Responsive End*/
+
+/*Card Box Area Area Responsive Start */
+@media(max-width: 1311px){
+    .card_box_area .card_box_area_all .card_box{
+        width: 30%;
+    }
+}
+@media(max-width: 1115px){
+    .card_box_area .card_box_area_all .card_box .box2{
+        margin-left: 10px;
+    }
+}
+@media(max-width: 1077px){
+    .card_box_area .card_box_area_all .card_box .box2 p{
+        font-size: 16px;
+    }
+
+    .card_box_area .card_box_area_all .card_box .box1 .icon_box{
+        margin-bottom: 35px;
+    }
+}
+
+@media(max-width: 992px){
+    .card_box_area .card_box_area_all .card_box{
+        width: 49%;
+        margin-right: 0px;
+    }
+}
+
+
+@media(max-width: 650px){
+    .card_box_area .card_box_area_all .card_box{
+        width: 100%;
+        margin-right: 0px;
+    }
+}
